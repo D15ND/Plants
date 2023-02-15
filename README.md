@@ -1,2 +1,2 @@
 # Plants
-https://github.com/D15ND/Plants/tree/gh-pages/plants
+https://d15nd.github.io/Plants/plants/
