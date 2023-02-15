@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./normalize.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./adaptive.css">
+  <title>Plants</title>
+  <link rel="icon" type="image/x-icon" href="./images/logo_vector.svg">
+</head>
+<body>
+  <header class="header">
+    <div class="wrapper header__wrapper">
+      <a href="#!" class="logo">Plants</a>
+      <nav class="header__navigation">
+        <ul class="navigation">
+          <li class="navigation__item">
+            <a href="#home" class="navigation__link">Home</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#about" class="navigation__link">About us</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#service" class="navigation__link">Service</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#prices" class="navigation__link">Price</a>
+          </li>
+          <li class="navigation__item navigation__link_active-last">
+            <a href="#contacts" class="navigation__link">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="header__burger-btn" id="burger">
+        <span></span><span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+  <main class="main">
+    <section class="welcome" id="home">
+      <div class="wrapper welcome__wrapper">
+          <img class="welcome__image" src="./images/leafs.png" alt="leafs image">
+        <div class="plants">
+          <h1 class="plants__text">We grow <span class="color__text">plants</span> and give you oxygen</h1>
+          <p class="lorem__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          <button class="plants__button">LEARN MORE</button>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="wrapper about__wrapper">
+        <div class="about__text_container">
+          <h2 class="gardeners__text"><span class="color__text">We are</span> professional experienced <span class="color__text">gardeners</span></h2>
+          <p class="about__lorem-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        </div>
+        <img class="about__image__houseplant" src="./images/houseplant1.png" alt="houseplant">
+      </div>
+    </section>
+    <section class="service" id="service">
+      <div class="wrapper service__wrapper">
+        <div class="service__content">
+          <h2 class="service__text">Service and our projects</h2>
+          <div class="service__button__folder">
+            <button class="service__button-gardens general__buttom-serivce">Gardens</button>
+            <button class="service__button-lawn general__buttom-serivce">Lawn</button>
+            <button class="service__button-planting general__buttom-serivce">Planting</button>
+          </div>
+        </div>
+      </div>
+      <div class="services__folder">
+        <div class="wrapper services__folder__wrapper">
+          <div class="garden__care__first blur__img">
+            <!-- <img class="img__img-img" src="./images/first.png" alt="garden care"> -->
+            <picture>
+              <source srcset="./images/first_table.png" media="(max-width: 768px)">
+              <img class="img__img-img" src="./images/first.png" alt="garden care">
+            </picture>
+            <div class="rectangle">
+              <p class="rectangle__main-text">Garden care</p>
+              <p class="rectangle__second-text">Lorem Ipsum has been the industry</p>
+            </div>
+          </div>
+          <div class="planting__second blur__img">
+            <!-- <img class="img__img-img" src="./images/second.png" alt="planting"> -->
+            <picture>
+              <source srcset="./images/first_table2.png" media="(max-width: 768px)">
+              <img class="img__img-img" src="./images/second.png" alt="planting">
+            </picture>
+            <div class="rectangle">
+              <p class="rectangle__main-text">Planting</p>
+              <p class="rectangle__second-text">Lorem Ipsum has been the industry</p>
+            </div>
+          </div>
+          <div class="lawn__care__third blur__img">
+            <!-- <img class="img__img-img" src="./images/third.png" alt="lawn care"> -->
+            <picture>
+              <source srcset="./images/first_table3.png" media="(max-width: 768px)">
+              <img class="img__img-img" src="./images/third.png" alt="lawn care">
+            </picture>
+            <div class="rectangle">
+              <p class="rectangle__main-text">Lawn care</p>
+              <p class="rectangle__second-text">Lorem Ipsum has been the industry</p>
+            </div>
+          </div>
+          <div class="planting__four blur__img">
+            <!-- <img class="img__img-img" src="./images/four.png" alt="planting"> -->
+            <picture>
+              <source srcset="./images/first_table4.png" media="(max-width: 768px)">
+              <img class="img__img-img" src="./images/four.png" alt="planting">
+            </picture>
+            <div class="rectangle">
+              <p class="rectangle__main-text">Planting</p>
+              <p class="rectangle__second-text">Lorem Ipsum has been the industry</p>
+            </div>
+          </div>
+          <div class="garden__care__five blur__img">
+            <!-- <img class="img__img-img" src="./images/five.png" alt="garden care"> -->
+            <picture>
+              <source srcset="./images/first_table5.png" media="(max-width: 768px)">
+              <img class="img__img-img" src="./images/five.png" alt="garden care">
+            </picture>
+            <div class="rectangle">
+              <p class="rectangle__main-text">Garden care</p>
+              <p class="rectangle__second-text">Lorem Ipsum has been the industry</p>
+            </div>
+          </div>
+          <div class="planting__six blur__img">
+            <!-- <img class="img__img-img" src="./images/six.png" alt="planting"> -->
+            <picture>
+              <source srcset="./images/first_table6.png" media="(max-width: 768px)">
+              <img class="img__img-img" src="./images/six.png" alt="planting">
+            </picture>
+            <div class="rectangle">
+              <p class="rectangle__main-text">Planting</p>
+              <p class="rectangle__second-text">Lorem Ipsum has been the industry</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="prices" id="prices">
+      <div class="wrapper prices__wrapper">
+        <div class="prices__block">
+          <h2 class="prices__text">Prices</h2>
+          <div class="prices__item">
+            <div class="prices__items">
+              <div class="accordion__main">
+                <div class="basic__items items__text-config">
+                  <p class="items__text">Basics</p>
+                  <img class="accorion__btn" src="./images/accordion_btn.svg" alt="bottom img">
+                </div>
+                <div class="accordion__content">
+                  <!-- add round image -->
+                  <p class="line__string"></p>
+                  <p class="text__content">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                  <p class="cost__hour"><span class="dollar">$</span><span class="cost__color">15</span> / per hour</p>
+                  <button class="order__button">
+                    <a href="#contacts" class="order__text">Order</a>
+                  </button>
+                </div>
+              </div>
+              <div class="accordion__main">
+                <div class="standart__items items__text-config">
+                  <p class="items__text">Standard</p>
+                  <img class="accorion__btn" src="./images/accordion_btn.svg" alt="bottom img">
+                </div>
+                <div class="accordion__content">
+                  <!-- add round image -->
+                  <p class="line__string"></p>
+                  <p class="text__content">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                  <p class="cost__hour"><span class="dollar">$</span><span class="cost__color">25</span> / per hour</p>
+                  <button class="order__button">
+                    <a href="#contacts" class="order__text">Order</a>
+                  </button>
+                </div>
+              </div>
+              <div class="accordion__main">
+                <div class="pro__care__items items__text-config">
+                  <p class="items__text">Pro care</p>
+                  <img class="accorion__btn" src="./images/accordion_btn.svg" alt="bottom img">
+                </div>
+                <div class="accordion__content">
+                  <!-- add round image -->
+                  <p class="line__string"></p>
+                  <p class="text__content">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                  <p class="cost__hour"><span class="dollar">$</span><span class="cost__color">35</span> / per hour</p>
+                  <button class="order__button">
+                    <a href="#contacts" class="order__text">Order</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text__call__us">
+          <p class="text__call-gardeners">Our best <span class="color__text">gardeners</span> are ready to help you</p>
+          <button class="contacts__us-button">Contact us</button>
+          <img class="leafs__imageeer" src="./images/leafs__contacts.png" alt="leafs contacts image">
+        </div>
+      </div>
+    </section>
+    <section class="contacts" id="contacts">
+      <div class="wrapper contacts__wrapper">
+        <img class="woman__shovel" src="./images/contact_woman1.png" alt="woman with shovel">
+        <h2 class="contacts__us-text">Contact us</h2>
+        <div class="contacts__box">
+          <p class="second__text">City</p>
+          <img class="elipce__img" src="./images/accrodion_btn__contacts.svg" alt="elipce">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="wrapper footer__wrapper">
+      <div class="footer__items">
+        <div class="github__item">
+          <a class="github__link" href="https://github.com/D15ND" target="_blank"><span class="discord__range">©</span><span class="discord__range">2022</span><span class="discord__range">github</span></a>
+        </div>
+        <div class="rss__item">
+          <a class="rss__link" href="https://rs.school/js-stage0/" target="_blank">Rolling Scopes School</a>
+        </div>
+        <div class="social__links">
+          <ul class="social__box">
+            <li class="instagram social__item">
+              <a href="#!" class="instagram footer__logo-anim" target="_blank"></a>
+            </li>
+            <li class="facebook social__item">
+              <a href="#!" class="facebook footer__logo-anim" target="_blank"></a>
+            </li>
+            <li class="twitter social__item">
+              <a href="#!" class="twitter footer__logo-anim" target="_blank"></a>
+            </li>
+            <li class="pinterest social__item">
+              <a href="#!" class="pinterest footer__logo-anim" target="_blank"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+</html>
